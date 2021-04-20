@@ -1,5 +1,58 @@
 body {
   margin: 0;
+  font-weight: 400;
   font-size: 1.125rem;
-  background: green;
+  background: hsl(218, 28%, 13%);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*
+--------    Typography  --------
+*/
+
+.logo {
+}
+
+/*
+--------    Layout  --------
+*/
+
+.container {
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  padding: 0 1em;
+}
+
+.logo {
+  width: 30%;
+  height: 30px;
+}
+
+/*
+--------    navigation  --------
+*/
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 0.5em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+nav a:hover {
 }
