@@ -35,6 +35,10 @@ img {
   height: 30px;
 }
 
+.btn {
+  border: none;
+}
+
 /*
 --------    navigation  --------
 */
@@ -51,9 +55,10 @@ nav li {
 }
 
 nav a {
-  color: lightgrey;
+  color: lightgray;
   text-decoration: none;
   font-size: 0.875rem;
+  cursor: pointer;
 }
 
 nav a:hover {
@@ -66,4 +71,30 @@ nav a:hover {
 .intro {
   padding: 3em 2em;
   text-align: center;
+}
+
+.intro-image {
+  margin-bottom: 1em;
+}
+
+.intro-tagline {
+  font-size: 1.325rem;
+  line-height: 1.5;
+}
+
+.intro-body {
+  font-size: 0.7em;
+  font-weight: 400;
+  color: lightgray;
+  padding: 0 1.5em;
+  margin-bottom: 2em;
+}
+
+.btn-intro {
+  padding: 1em 5.5em;
+  border-radius: 20px;
+  background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  color: whitesmoke;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
