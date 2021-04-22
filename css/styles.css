@@ -37,9 +37,6 @@ h3 {
 --------    Layout  --------
 */
 
-.container {
-}
-
 .container-flex {
   display: flex;
   justify-content: space-between;
@@ -78,8 +75,8 @@ nav a {
   cursor: pointer;
 }
 
-nav a:hover {
-}
+/* nav a:hover {
+} */
 
 /*
 --------    intro  --------
@@ -132,5 +129,5 @@ nav a:hover {
   margin: 0 auto;
 }
 
-.service-title {
-}
+/* .service-title {
+} */
