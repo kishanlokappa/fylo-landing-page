@@ -9,6 +9,7 @@ body {
 }
 
 img {
+  display: block;
   width: 100%;
 }
 
@@ -16,12 +17,25 @@ img {
 --------    Typography  --------
 */
 
+h2 {
+  font-size: 1.325rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.intro-body,
+.service-body {
+  font-size: 0.7em;
+  font-weight: 400;
+  color: lightgray;
+}
 /*
 --------    Layout  --------
 */
-
-.container {
-}
 
 .container-flex {
   display: flex;
@@ -61,8 +75,8 @@ nav a {
   cursor: pointer;
 }
 
-nav a:hover {
-}
+/* nav a:hover {
+} */
 
 /*
 --------    intro  --------
@@ -71,21 +85,19 @@ nav a:hover {
 .intro {
   padding: 3em 2em;
   text-align: center;
+  margin-bottom: 4em;
 }
 
 .intro-image {
+  width: 100%;
   margin-bottom: 1em;
 }
 
 .intro-tagline {
-  font-size: 1.325rem;
   line-height: 1.5;
 }
 
 .intro-body {
-  font-size: 0.7em;
-  font-weight: 400;
-  color: lightgray;
   padding: 0 1.5em;
   margin-bottom: 2em;
 }
@@ -98,3 +110,24 @@ nav a:hover {
   font-weight: 700;
   letter-spacing: 1px;
 }
+
+/*
+--------    services  --------
+*/
+
+.services {
+  text-align: center;
+  padding: 0 2em;
+}
+
+.service {
+  margin-bottom: 5em;
+}
+
+.service-image {
+  width: 17%;
+  margin: 0 auto;
+}
+
+/* .service-title {
+} */
