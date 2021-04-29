@@ -4,7 +4,7 @@ body {
   font-weight: 400;
   font-size: 1.125rem;
   background: hsl(218, 28%, 13%);
-  color: white;
+  color: lightgray;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -27,11 +27,17 @@ h3 {
   font-family: 'Raleway', sans-serif;
 }
 
+.intro,
+.services {
+  text-align: center;
+}
+
 .intro-body,
-.service-body {
+.service-body,
+.stay-productive-body,
+.stay-productive-read-more {
   font-size: 0.7em;
   font-weight: 400;
-  color: lightgray;
 }
 /*
 --------    Layout  --------
@@ -84,7 +90,6 @@ nav a {
 
 .intro {
   padding: 3em 2em;
-  text-align: center;
   margin-bottom: 4em;
 }
 
@@ -129,5 +134,20 @@ nav a {
   margin: 0 auto;
 }
 
-/* .service-title {
-} */
+/*
+--------    Stay productive  --------
+*/
+
+.stay-productive {
+  padding: 3em 2em;
+  margin-bottom: 4em;
+}
+
+.stay-productive-read-more {
+  color: hsl(176, 68%, 64%);
+}
+
+.stay-productive-read-more:hover,
+.stay-productive-read-more:focus {
+  cursor: pointer;
+}
