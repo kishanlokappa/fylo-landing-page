@@ -23,6 +23,7 @@ h2 {
 }
 
 h3 {
+  color: white;
   font-size: 1.125rem;
   font-family: 'Raleway', sans-serif;
 }
@@ -35,7 +36,10 @@ h3 {
 .intro-body,
 .service-body,
 .stay-productive-body,
-.stay-productive-read-more {
+.stay-productive-read-more,
+.comment-body,
+.comments-name h3,
+.comments-name p {
   font-size: 0.7em;
   font-weight: 400;
 }
@@ -150,4 +154,49 @@ nav a {
 .stay-productive-read-more:hover,
 .stay-productive-read-more:focus {
   cursor: pointer;
+}
+
+/*
+--------    comments-section  --------
+*/
+
+.comments-section {
+  padding: 3em 2em;
+}
+
+.comment {
+  padding: 1em 1em;
+  background: hsl(217, 28%, 15%);
+  margin-bottom: 2em;
+}
+
+.comment-body {
+  margin: 0;
+}
+
+.comment-sentby {
+  margin-top: 1em;
+  display: flex;
+}
+
+.comments-name {
+  padding: 0 0.5em;
+}
+.comments-name h3 {
+  font-weight: 700;
+  margin: 0;
+}
+
+.comments-name p {
+  margin-top: 0.5em;
+}
+
+.comments-sentby-image {
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+}
+
+.comments-section-quotes {
+  width: 10%;
 }
