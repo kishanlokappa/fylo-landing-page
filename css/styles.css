@@ -200,3 +200,17 @@ nav a {
 .comments-section-quotes {
   width: 10%;
 }
+
+/*
+  get-access
+*/
+
+.get-access {
+  padding: 3em 2em;
+  text-align: center;
+}
+
+.get-access input {
+  border: 0;
+  padding: ;
+}
