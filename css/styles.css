@@ -208,6 +208,7 @@ nav a {
 .get-access {
   padding: 3em 2em;
   text-align: center;
+  background: hsl(217, 28%, 15%);
 }
 
 .get-access input,
@@ -216,4 +217,32 @@ nav a {
   padding: 1.5em 5.5em;
   margin: 1em;
   border-radius: 25px;
+}
+
+/*
+  footer
+*/
+.footer-icon {
+  width: 50%;
+  padding: 3em 2em;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-company-location {
+  padding: 0em 2em;
+}
+
+.footer-company-location-icon {
+  width: 5%;
+  height: 20px;
+  margin-top: 6px;
+}
+
+.footer-company-location-body {
+  margin-top: 0;
+  width: 85%;
 }
