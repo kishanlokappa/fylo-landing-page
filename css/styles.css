@@ -206,22 +206,45 @@ nav a {
 */
 
 .get-access {
+  width: 70%;
+  margin: 0 auto;
   padding: 3em 2em;
   text-align: center;
   background: hsl(217, 28%, 15%);
 }
 
-.get-access input,
-.btn-get-started {
-  border: 0;
-  padding: 1.5em 5.5em;
-  margin: 1em;
-  border-radius: 25px;
+.get-access p {
+  font-size: 0.8rem;
+}
+
+.get-access input {
+  width: 100%;
+  border: none;
+  padding: 1.5em 0em;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.get-access button {
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 1.5em 0em;
+  border-radius: 30px;
+}
+
+.get-access-email {
+  margin-bottom: 2em;
 }
 
 /*
   footer
 */
+
+footer {
+  background: hsl(216, 53%, 9%);
+}
+
 .footer-icon {
   width: 50%;
   padding: 3em 2em;
@@ -232,7 +255,9 @@ nav a {
   justify-content: space-between;
 }
 
-.footer-company-location {
+.footer-company-location,
+.footer-company-contact-phone,
+.footer-company-contact-email {
   padding: 0em 2em;
 }
 
@@ -242,7 +267,29 @@ nav a {
   margin-top: 6px;
 }
 
-.footer-company-location-body {
+.footer-company-location-body,
+.footer-company-contact-phone-body,
+.footer-company-contact-email-body {
   margin-top: 0;
   width: 85%;
+}
+
+.footer-company-contact-phone-icon,
+.footer-company-contact-email-icon {
+  width: 6%;
+  height: 16px;
+  margin-top: 6px;
+}
+
+.footer-page-links {
+  padding: 1em 2em;
+}
+
+.footer-socialmedia {
+  display: flex;
+}
+
+.footer-socialmedia-icon {
+  background: white;
+  border-radius: 49%;
 }
