@@ -293,3 +293,15 @@ footer {
   background: white;
   border-radius: 49%;
 }
+
+@media (min-width: 675px) {
+  .container-big-screen {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  footer {
+    margin: 0;
+  }
+}
