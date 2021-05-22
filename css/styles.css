@@ -295,10 +295,113 @@ footer {
 }
 
 @media (min-width: 675px) {
+  /*
+  
+  typography
+
+  */
+
+  .intro {
+    font-size: 1.725rem;
+  }
+
+  .service-body {
+    font-size: 0.925rem;
+    font-weight: 400;
+  }
+
+  /*
+  
+  layout
+
+  */
+
   .container-big-screen {
     width: 90%;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
+  }
+
+  .logo {
+    width: 10%;
+    height: 35px;
+  }
+
+  .intro {
+    width: 50%;
+    font-size: 1.725rem;
+    font-weight: 400;
+    margin-bottom: 3em;
+  }
+
+  .intro-body {
+    padding: 0 4em;
+  }
+
+  .intro-tagline {
+    font-size: 2.5rem;
+    color: white;
+  }
+
+  .container-flex {
+    padding: 0 2em;
+  }
+
+  .services {
+    display: grid;
+    grid-template: auto auto / auto auto;
+  }
+
+  .service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .service img {
+    height: 75px;
+    margin-bottom: 1em;
+  }
+
+  .service-title,
+  .service-body {
+    margin: 0 0.25em 0.5em 0.25em;
+    padding: 0 2em;
+  }
+
+  .stay-productive {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .stay-productive-image {
+    height: 500px;
+    width: 58%;
+  }
+
+  .stay-productive-title {
+    font-size: 2.5rem;
+  }
+
+  .stay-productive-main-body {
+    font-size: 1.5rem;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .comments-section {
+    display: flex;
+  }
+
+  .comment {
+    width: 250px;
+    margin-right: auto;
+  }
+
+  .comments-section-quotes {
+    width: 3%;
+    height: 30px;
   }
 
   footer {
