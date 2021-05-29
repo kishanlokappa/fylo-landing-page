@@ -144,7 +144,7 @@ nav a {
 
 .stay-productive {
   padding: 3em 2em;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
 }
 
 .stay-productive-read-more {
@@ -161,7 +161,7 @@ nav a {
 */
 
 .comments-section {
-  padding: 3em 2em;
+  padding: 3em 2em 0em 2em;
 }
 
 .comment {
@@ -170,6 +170,9 @@ nav a {
   margin-bottom: 2em;
 }
 
+.comments-section div.comment:last-child {
+  margin-bottom: 0;
+}
 .comment-body {
   margin: 0;
 }
@@ -211,6 +214,8 @@ nav a {
   padding: 3em 2em;
   text-align: center;
   background: hsl(217, 28%, 15%);
+  position: relative;
+  top: 12em;
 }
 
 .get-access p {
@@ -245,6 +250,10 @@ footer {
   background: hsl(216, 53%, 9%);
 }
 
+.footer-col1 {
+  padding-top: 15em;
+}
+
 .footer-icon {
   width: 50%;
   padding: 3em 2em;
@@ -276,9 +285,10 @@ footer {
 
 .footer-company-contact-phone-icon,
 .footer-company-contact-email-icon {
-  width: 6%;
+  width: 10%;
   height: 16px;
   margin-top: 6px;
+  margin-right: 10px;
 }
 
 .footer-page-links {
@@ -404,6 +414,10 @@ footer {
     height: 30px;
   }
 
+  .comments-section div.comment:last-child {
+    margin-bottom: 2em;
+  }
+
   /*
    footer 
   */
@@ -419,6 +433,7 @@ footer {
   .footer-col1 {
     width: 40%;
     margin-top: 2em;
+    padding-top: 7em;
   }
 
   .footer-icon {
@@ -431,6 +446,7 @@ footer {
 
   .footer-company-contact {
     padding: 2em 2em;
+    padding-top: 10em;
     margin-top: 2em;
   }
 
@@ -439,5 +455,9 @@ footer {
   .footer-company-contact,
   .footer-page-links {
     margin: 6em 0;
+  }
+
+  .footer-page-links {
+    padding-top: 8.6em;
   }
 }
